@@ -1,0 +1,1551 @@
+[
+  {
+    "city": "Indore",
+    "state": "Madhya Pradesh",
+    "hiCity": "इंदौर",
+    "hiState": "मध्य प्रदेश"
+  },
+  {
+    "city": "Bhopal",
+    "state": "Madhya Pradesh",
+    "hiCity": "भोपाल",
+    "hiState": "मध्य प्रदेश"
+  },
+  {
+    "city": "Gwalior",
+    "state": "Madhya Pradesh",
+    "hiCity": "ग्वालियर",
+    "hiState": "मध्य प्रदेश"
+  },
+  {
+    "city": "Jabalpur",
+    "state": "Madhya Pradesh",
+    "hiCity": "जबलपुर",
+    "hiState": "मध्य प्रदेश"
+  },
+  {
+    "city": "Ujjain",
+    "state": "Madhya Pradesh",
+    "hiCity": "उज्जैन",
+    "hiState": "मध्य प्रदेश"
+  },
+  {
+    "city": "Sagar",
+    "state": "Madhya Pradesh",
+    "hiCity": "सागर",
+    "hiState": "मध्य प्रदेश"
+  },
+  {
+    "city": "Satna",
+    "state": "Madhya Pradesh",
+    "hiCity": "सतना",
+    "hiState": "मध्य प्रदेश"
+  },
+  {
+    "city": "Rewa",
+    "state": "Madhya Pradesh",
+    "hiCity": "रीवा",
+    "hiState": "मध्य प्रदेश"
+  },
+  {
+    "city": "Khandwa",
+    "state": "Madhya Pradesh",
+    "hiCity": "खण्डवा",
+    "hiState": "मध्य प्रदेश"
+  },
+  {
+    "city": "Dewas",
+    "state": "Madhya Pradesh",
+    "hiCity": "देवास",
+    "hiState": "मध्य प्रदेश"
+  },
+  {
+    "city": "Khargone",
+    "state": "Madhya Pradesh",
+    "hiCity": "खरगोन",
+    "hiState": "मध्य प्रदेश"
+  },
+  {
+    "city": "Ratlam",
+    "state": "Madhya Pradesh",
+    "hiCity": "रतलाम",
+    "hiState": "मध्य प्रदेश"
+  },
+  {
+    "city": "Shivpuri",
+    "state": "Madhya Pradesh",
+    "hiCity": "शिवपुरी",
+    "hiState": "मध्य प्रदेश"
+  },
+  {
+    "city": "Chhindwara",
+    "state": "Madhya Pradesh",
+    "hiCity": "छिन्दवाड़ा",
+    "hiState": "मध्य प्रदेश"
+  },
+  {
+    "city": "Balaghat",
+    "state": "Madhya Pradesh",
+    "hiCity": "बालाघाट",
+    "hiState": "मध्य प्रदेश"
+  },
+  {
+    "city": "Betul",
+    "state": "Madhya Pradesh",
+    "hiCity": "बैतूल",
+    "hiState": "मध्य प्रदेश"
+  },
+  {
+    "city": "Hoshangabad",
+    "state": "Madhya Pradesh",
+    "hiCity": "होशंगाबाद",
+    "hiState": "मध्य प्रदेश"
+  },
+  {
+    "city": "Sehore",
+    "state": "Madhya Pradesh",
+    "hiCity": "सीहोर",
+    "hiState": "मध्य प्रदेश"
+  },
+  {
+    "city": "Vidisha",
+    "state": "Madhya Pradesh",
+    "hiCity": "विदिशा",
+    "hiState": "मध्य प्रदेश"
+  },
+  {
+    "city": "Morena",
+    "state": "Madhya Pradesh",
+    "hiCity": "मुरैना",
+    "hiState": "मध्य प्रदेश"
+  },
+  {
+    "city": "Bhind",
+    "state": "Madhya Pradesh",
+    "hiCity": "भिंड",
+    "hiState": "मध्य प्रदेश"
+  },
+  {
+    "city": "Ashoknagar",
+    "state": "Madhya Pradesh",
+    "hiCity": "अशोकनगर",
+    "hiState": "मध्य प्रदेश"
+  },
+  {
+    "city": "Shahdol",
+    "state": "Madhya Pradesh",
+    "hiCity": "शहडोल",
+    "hiState": "मध्य प्रदेश"
+  },
+  {
+    "city": "Panna",
+    "state": "Madhya Pradesh",
+    "hiCity": "पन्ना",
+    "hiState": "मध्य प्रदेश"
+  },
+  {
+    "city": "Damoh",
+    "state": "Madhya Pradesh",
+    "hiCity": "दमोह",
+    "hiState": "मध्य प्रदेश"
+  },
+  {
+    "city": "Tikamgarh",
+    "state": "Madhya Pradesh",
+    "hiCity": "टीकमगढ़",
+    "hiState": "मध्य प्रदेश"
+  },
+  {
+    "city": "Chhatarpur",
+    "state": "Madhya Pradesh",
+    "hiCity": "छतरपुर",
+    "hiState": "मध्य प्रदेश"
+  },
+  {
+    "city": "Sidhi",
+    "state": "Madhya Pradesh",
+    "hiCity": "सिद्धी",
+    "hiState": "मध्य प्रदेश"
+  },
+  {
+    "city": "Singrauli",
+    "state": "Madhya Pradesh",
+    "hiCity": "सिंगरौली",
+    "hiState": "मध्य प्रदेश"
+  },
+  {
+    "city": "Umaria",
+    "state": "Madhya Pradesh",
+    "hiCity": "उमरिया",
+    "hiState": "मध्य प्रदेश"
+  },
+  {
+    "city": "Katni",
+    "state": "Madhya Pradesh",
+    "hiCity": "कटनी",
+    "hiState": "मध्य प्रदेश"
+  },
+  {
+    "city": "Dindori",
+    "state": "Madhya Pradesh",
+    "hiCity": "डिंडोरी",
+    "hiState": "मध्य प्रदेश"
+  },
+  {
+    "city": "Seoni",
+    "state": "Madhya Pradesh",
+    "hiCity": "सिवनी",
+    "hiState": "मध्य प्रदेश"
+  },
+  {
+    "city": "Alirajpur",
+    "state": "Madhya Pradesh",
+    "hiCity": "अलीराजपुर",
+    "hiState": "मध्य प्रदेश"
+  },
+  {
+    "city": "Barwani",
+    "state": "Madhya Pradesh",
+    "hiCity": "बड़वानी",
+    "hiState": "मध्य प्रदेश"
+  },
+  {
+    "city": "Burhanpur",
+    "state": "Madhya Pradesh",
+    "hiCity": "बुरहानपुर",
+    "hiState": "मध्य प्रदेश"
+  },
+  {
+    "city": "Datia",
+    "state": "Madhya Pradesh",
+    "hiCity": "दतिया",
+    "hiState": "मध्य प्रदेश"
+  },
+  {
+    "city": "Guna",
+    "state": "Madhya Pradesh",
+    "hiCity": "गुना",
+    "hiState": "मध्य प्रदेश"
+  },
+  {
+    "city": "Harda",
+    "state": "Madhya Pradesh",
+    "hiCity": "हरदा",
+    "hiState": "मध्य प्रदेश"
+  },
+  {
+    "city": "Jhabua",
+    "state": "Madhya Pradesh",
+    "hiCity": "झाबुआ",
+    "hiState": "मध्य प्रदेश"
+  },
+  {
+    "city": "Narsinghpur",
+    "state": "Madhya Pradesh",
+    "hiCity": "नरसिंहपुर",
+    "hiState": "मध्य प्रदेश"
+  },
+  {
+    "city": "Rajgarh",
+    "state": "Madhya Pradesh",
+    "hiCity": "राजगढ़",
+    "hiState": "मध्य प्रदेश"
+  },
+  {
+    "city": "Sihora",
+    "state": "Madhya Pradesh",
+    "hiCity": "सिहोरा",
+    "hiState": "मध्य प्रदेश"
+  },
+  {
+    "city": "Shajapur",
+    "state": "Madhya Pradesh",
+    "hiCity": "शाजापुर",
+    "hiState": "मध्य प्रदेश"
+  },
+  {
+    "city": "Sheopur",
+    "state": "Madhya Pradesh",
+    "hiCity": "शिवपुरी",
+    "hiState": "मध्य प्रदेश"
+  },
+  {
+    "city": "Mandsaur",
+    "state": "Madhya Pradesh",
+    "hiCity": "मंदसौर",
+    "hiState": "मध्य प्रदेश"
+  },
+  {
+    "city": "Neemuch",
+    "state": "Madhya Pradesh",
+    "hiCity": "नीमच",
+    "hiState": "मध्य प्रदेश"
+  },
+  {
+    "city": "Pithampur",
+    "state": "Madhya Pradesh",
+    "hiCity": "पीथमपुर",
+    "hiState": "मध्य प्रदेश"
+  },
+  {
+    "city": "Morbi",
+    "state": "Gujarat",
+    "hiCity": "मोरबी",
+    "hiState": "गुजरात"
+  },
+  {
+    "city": "Rajkot",
+    "state": "Gujarat",
+    "hiCity": "राजकोट",
+    "hiState": "गुजरात"
+  },
+  {
+    "city": "Ahmedabad",
+    "state": "Gujarat",
+    "hiCity": "अहमदाबाद",
+    "hiState": "गुजरात"
+  },
+  {
+    "city": "Surat",
+    "state": "Gujarat",
+    "hiCity": "सूरत",
+    "hiState": "गुजरात"
+  },
+  {
+    "city": "Vadodara",
+    "state": "Gujarat",
+    "hiCity": "वडोदरा",
+    "hiState": "गुजरात"
+  },
+  {
+    "city": "Bhavnagar",
+    "state": "Gujarat",
+    "hiCity": "भावनगर",
+    "hiState": "गुजरात"
+  },
+  {
+    "city": "Jamnagar",
+    "state": "Gujarat",
+    "hiCity": "जामनगर",
+    "hiState": "गुजरात"
+  },
+  {
+    "city": "Gandhinagar",
+    "state": "Gujarat",
+    "hiCity": "गांधीनगर",
+    "hiState": "गुजरात"
+  },
+  {
+    "city": "Anand",
+    "state": "Gujarat",
+    "hiCity": "आनंद",
+    "hiState": "गुजरात"
+  },
+  {
+    "city": "Nadiad",
+    "state": "Gujarat",
+    "hiCity": "नडियाद",
+    "hiState": "गुजरात"
+  },
+  {
+    "city": "Valsad",
+    "state": "Gujarat",
+    "hiCity": "वलसाड",
+    "hiState": "गुजरात"
+  },
+  {
+    "city": "Navsari",
+    "state": "Gujarat",
+    "hiCity": "नवसारी",
+    "hiState": "गुजरात"
+  },
+  {
+    "city": "Bharuch",
+    "state": "Gujarat",
+    "hiCity": "भरूच",
+    "hiState": "गुजरात"
+  },
+  {
+    "city": "Palanpur",
+    "state": "Gujarat",
+    "hiCity": "पालनपुर",
+    "hiState": "गुजरात"
+  },
+  {
+    "city": "Bhuj",
+    "state": "Gujarat",
+    "hiCity": "भुज",
+    "hiState": "गुजरात"
+  },
+  {
+    "city": "Porbandar",
+    "state": "Gujarat",
+    "hiCity": "पोरबंदर",
+    "hiState": "गुजरात"
+  },
+  {
+    "city": "Junagadh",
+    "state": "Gujarat",
+    "hiCity": "जूनागढ़",
+    "hiState": "गुजरात"
+  },
+  {
+    "city": "Surendranagar",
+    "state": "Gujarat",
+    "hiCity": "सुरेन्द्रनगर",
+    "hiState": "गुजरात"
+  },
+  {
+    "city": "Kutch",
+    "state": "Gujarat",
+    "hiCity": "कच्छ",
+    "hiState": "गुजरात"
+  },
+  {
+    "city": "Mehsana",
+    "state": "Gujarat",
+    "hiCity": "मेहसाणा",
+    "hiState": "गुजरात"
+  },
+  {
+    "city": "Dahod",
+    "state": "Gujarat",
+    "hiCity": "दाहोद",
+    "hiState": "गुजरात"
+  },
+  {
+    "city": "Godhra",
+    "state": "Gujarat",
+    "hiCity": "गोधरा",
+    "hiState": "गुजरात"
+  },
+  {
+    "city": "Ankleshwar",
+    "state": "Gujarat",
+    "hiCity": "अंकलेश्वर",
+    "hiState": "गुजरात"
+  },
+  {
+    "city": "Vapi",
+    "state": "Gujarat",
+    "hiCity": "वापी",
+    "hiState": "गुजरात"
+  },
+  {
+    "city": "Diu",
+    "state": "Daman and Diu",
+    "hiCity": "दीव",
+    "hiState": "दमन और दीव"
+  },
+  {
+    "city": "Daman",
+    "state": "Daman and Diu",
+    "hiCity": "दमन",
+    "hiState": "दमन और दीव"
+  },
+  {
+    "city": "Silvassa",
+    "state": "Dadra and Nagar Haveli and Daman and Diu",
+    "hiCity": "सिलवासा",
+    "hiState": "दादरा और नगर हवेली और दमन और दीव"
+  },
+  {
+    "city": "Dadra and Nagar Haveli",
+    "state": "Dadra and Nagar Haveli and Daman and Diu",
+    "hiCity": "दादरा और नगर हवेली",
+    "hiState": "दादरा और नगर हवेली और दमन और दीव"
+  },
+  {
+    "city": "Kandla",
+    "state": "Gujarat",
+    "hiCity": "कांडला",
+    "hiState": "गुजरात"
+  },
+  {
+    "city": "Bardoli",
+    "state": "Gujarat",
+    "hiCity": "बड़ौली",
+    "hiState": "गुजरात"
+  },
+  {
+    "city": "Delhi",
+    "state": "Delhi",
+    "hiCity": "दिल्ली",
+    "hiState": "दिल्ली"
+  },
+  {
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "hiCity": "मुंबई",
+    "hiState": "महाराष्ट्र"
+  },
+  {
+    "city": "Pune",
+    "state": "Maharashtra",
+    "hiCity": "पुणे",
+    "hiState": "महाराष्ट्र"
+  },
+  {
+    "city": "Nagpur",
+    "state": "Maharashtra",
+    "hiCity": "नागपुर",
+    "hiState": "महाराष्ट्र"
+  },
+  {
+    "city": "Nashik",
+    "state": "Maharashtra",
+    "hiCity": "नासिक",
+    "hiState": "महाराष्ट्र"
+  },
+  {
+    "city": "Ahmednagar",
+    "state": "Maharashtra",
+    "hiCity": "अहमदनगर",
+    "hiState": "महाराष्ट्र"
+  },
+  {
+    "city": "Thane",
+    "state": "Maharashtra",
+    "hiCity": "ठाणे",
+    "hiState": "महाराष्ट्र"
+  },
+  {
+    "city": "Aurangabad",
+    "state": "Maharashtra",
+    "hiCity": "औरंगाबाद",
+    "hiState": "महाराष्ट्र"
+  },
+  {
+    "city": "Solapur",
+    "state": "Maharashtra",
+    "hiCity": "सोलापुर",
+    "hiState": "महाराष्ट्र"
+  },
+  {
+    "city": "Kolhapur",
+    "state": "Maharashtra",
+    "hiCity": "कोल्हापुर",
+    "hiState": "महाराष्ट्र"
+  },
+  {
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "hiCity": "जयपुर",
+    "hiState": "राजस्थान"
+  },
+  {
+    "city": "Udaipur",
+    "state": "Rajasthan",
+    "hiCity": "उदयपुर",
+    "hiState": "राजस्थान"
+  },
+  {
+    "city": "Jodhpur",
+    "state": "Rajasthan",
+    "hiCity": "जोधपुर",
+    "hiState": "राजस्थान"
+  },
+  {
+    "city": "Ajmer",
+    "state": "Rajasthan",
+    "hiCity": "अजमेर",
+    "hiState": "राजस्थान"
+  },
+  {
+    "city": "Bikaner",
+    "state": "Rajasthan",
+    "hiCity": "बीकानेर",
+    "hiState": "राजस्थान"
+  },
+  {
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "hiCity": "चेन्नई",
+    "hiState": "तमिलनाडु"
+  },
+  {
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "hiCity": "कोयंबटूर",
+    "hiState": "तमिलनाडु"
+  },
+  {
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "hiCity": "मदुरै",
+    "hiState": "तमिलनाडु"
+  },
+  {
+    "city": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "hiCity": "तिरुचिरापल्ली",
+    "hiState": "तमिलनाडु"
+  },
+  {
+    "city": "Visakhapatnam",
+    "state": "Andhra Pradesh",
+    "hiCity": "विशाखापत्तनम",
+    "hiState": "आंध्र प्रदेश"
+  },
+  {
+    "city": "Vijayawada",
+    "state": "Andhra Pradesh",
+    "hiCity": "विजयवाड़ा",
+    "hiState": "आंध्र प्रदेश"
+  },
+  {
+    "city": "Guntur",
+    "state": "Andhra Pradesh",
+    "hiCity": "गुंटूर",
+    "hiState": "आंध्र प्रदेश"
+  },
+  {
+    "city": "Tirupati",
+    "state": "Andhra Pradesh",
+    "hiCity": "तिरुपति",
+    "hiState": "आंध्र प्रदेश"
+  },
+  {
+    "city": "Kolkata",
+    "state": "West Bengal",
+    "hiCity": "कोलकाता",
+    "hiState": "पश्चिम बंगाल"
+  },
+  {
+    "city": "Howrah",
+    "state": "West Bengal",
+    "hiCity": "हावड़ा",
+    "hiState": "पश्चिम बंगाल"
+  },
+  {
+    "city": "Durgapur",
+    "state": "West Bengal",
+    "hiCity": "दुर्गापुर",
+    "hiState": "पश्चिम बंगाल"
+  },
+  {
+    "city": "Asansol",
+    "state": "West Bengal",
+    "hiCity": "आसनसोल",
+    "hiState": "पश्चिम बंगाल"
+  },
+  {
+    "city": "Siliguri",
+    "state": "West Bengal",
+    "hiCity": "सिलीगुड़ी",
+    "hiState": "पश्चिम बंगाल"
+  },
+  {
+    "city": "Patna",
+    "state": "Bihar",
+    "hiCity": "पटना",
+    "hiState": "बिहार"
+  },
+  {
+    "city": "Gaya",
+    "state": "Bihar",
+    "hiCity": "गया",
+    "hiState": "बिहार"
+  },
+  {
+    "city": "Bhagalpur",
+    "state": "Bihar",
+    "hiCity": "भागलपुर",
+    "hiState": "बिहार"
+  },
+  {
+    "city": "Muzaffarpur",
+    "state": "Bihar",
+    "hiCity": "मुजफ्फरपुर",
+    "hiState": "बिहार"
+  },
+  {
+    "city": "Darbhanga",
+    "state": "Bihar",
+    "hiCity": "दरभंगा",
+    "hiState": "बिहार"
+  },
+  {
+    "city": "Ranchi",
+    "state": "Jharkhand",
+    "hiCity": "रांची",
+    "hiState": "झारखंड"
+  },
+  {
+    "city": "Jamshedpur",
+    "state": "Jharkhand",
+    "hiCity": "जमशेदपुर",
+    "hiState": "झारखंड"
+  },
+  {
+    "city": "Dhanbad",
+    "state": "Jharkhand",
+    "hiCity": "धनबाद",
+    "hiState": "झारखंड"
+  },
+  {
+    "city": "Bokaro",
+    "state": "Jharkhand",
+    "hiCity": "बोकारो",
+    "hiState": "झारखंड"
+  },
+  {
+    "city": "Deoghar",
+    "state": "Jharkhand",
+    "hiCity": "देवघर",
+    "hiState": "झारखंड"
+  },
+  {
+    "city": "Srinagar",
+    "state": "Jammu and Kashmir",
+    "hiCity": "श्रीनगर",
+    "hiState": "जम्मू और कश्मीर"
+  },
+  {
+    "city": "Jammu",
+    "state": "Jammu and Kashmir",
+    "hiCity": "जम्मू",
+    "hiState": "जम्मू और कश्मीर"
+  },
+  {
+    "city": "Leh",
+    "state": "Ladakh",
+    "hiCity": "लेह",
+    "hiState": "लद्दाख"
+  },
+  {
+    "city": "Kargil",
+    "state": "Ladakh",
+    "hiCity": "कारगिल",
+    "hiState": "लद्दाख"
+  },
+  {
+    "city": "Gangtok",
+    "state": "Sikkim",
+    "hiCity": "गंगटोक",
+    "hiState": "सिक्किम"
+  },
+  {
+    "city": "Namchi",
+    "state": "Sikkim",
+    "hiCity": "नमची",
+    "hiState": "सिक्किम"
+  },
+  {
+    "city": "Aizawl",
+    "state": "Mizoram",
+    "hiCity": "ऐज़ॉल",
+    "hiState": "मिजोरम"
+  },
+  {
+    "city": "Lunglei",
+    "state": "Mizoram",
+    "hiCity": "लुंगलेई",
+    "hiState": "मिजोरम"
+  },
+  {
+    "city": "Imphal",
+    "state": "Manipur",
+    "hiCity": "इंफाल",
+    "hiState": "मणिपुर"
+  },
+  {
+    "city": "Kangpokpi",
+    "state": "Manipur",
+    "hiCity": "कांगपोकपी",
+    "hiState": "मणिपुर"
+  },
+  {
+    "city": "Agartala",
+    "state": "Tripura",
+    "hiCity": "अगरतला",
+    "hiState": "त्रिपुरा"
+  },
+  {
+    "city": "Udaipur",
+    "state": "Tripura",
+    "hiCity": "उदयपुर",
+    "hiState": "त्रिपुरा"
+  },
+  {
+    "city": "Shillong",
+    "state": "Meghalaya",
+    "hiCity": "शिलांग",
+    "hiState": "मेघालय"
+  },
+  {
+    "city": "Tura",
+    "state": "Meghalaya",
+    "hiCity": "तुरा",
+    "hiState": "मेघालय"
+  },
+  {
+    "city": "Kohima",
+    "state": "Nagaland",
+    "hiCity": "कोहिमा",
+    "hiState": "नागालैंड"
+  },
+  {
+    "city": "Dimapur",
+    "state": "Nagaland",
+    "hiCity": "डिमापुर",
+    "hiState": "नागालैंड"
+  },
+  {
+    "city": "Itanagar",
+    "state": "Arunachal Pradesh",
+    "hiCity": "ईटानगर",
+    "hiState": "अरुणाचल प्रदेश"
+  },
+  {
+    "city": "Naharlagun",
+    "state": "Arunachal Pradesh",
+    "hiCity": "नाहरलगुन",
+    "hiState": "अरुणाचल प्रदेश"
+  },
+  {
+    "city": "Dispur",
+    "state": "Assam",
+    "hiCity": "दिसपुर",
+    "hiState": "असम"
+  },
+  {
+    "city": "Guwahati",
+    "state": "Assam",
+    "hiCity": "गुवाहाटी",
+    "hiState": "असम"
+  },
+  {
+    "city": "Silchar",
+    "state": "Assam",
+    "hiCity": "सिलचर",
+    "hiState": "असम"
+  },
+  {
+    "city": "Dibrugarh",
+    "state": "Assam",
+    "hiCity": "डिब्रूगढ़",
+    "hiState": "असम"
+  },
+  {
+    "city": "Tezpur",
+    "state": "Assam",
+    "hiCity": "तेज़पुर",
+    "hiState": "असम"
+  },
+  {
+    "city": "Bhubaneswar",
+    "state": "Odisha",
+    "hiCity": "भुवनेश्वर",
+    "hiState": "ओडिशा"
+  },
+  {
+    "city": "Cuttack",
+    "state": "Odisha",
+    "hiCity": "कटक",
+    "hiState": "ओडिशा"
+  },
+  {
+    "city": "Berhampur",
+    "state": "Odisha",
+    "hiCity": "बरहामपुर",
+    "hiState": "ओडिशा"
+  },
+  {
+    "city": "Rourkela",
+    "state": "Odisha",
+    "hiCity": "राउरकेला",
+    "hiState": "ओडिशा"
+  },
+  {
+    "city": "Sambalpur",
+    "state": "Odisha",
+    "hiCity": "संबलपुर",
+    "hiState": "ओडिशा"
+  },
+  {
+    "city": "Raipur",
+    "state": "Chhattisgarh",
+    "hiCity": "रायपुर",
+    "hiState": "छत्तीसगढ़"
+  },
+  {
+    "city": "Bilaspur",
+    "state": "Chhattisgarh",
+    "hiCity": "बिलासपुर",
+    "hiState": "छत्तीसगढ़"
+  },
+  {
+    "city": "Durg",
+    "state": "Chhattisgarh",
+    "hiCity": "दुर्ग",
+    "hiState": "छत्तीसगढ़"
+  },
+  {
+    "city": "Korba",
+    "state": "Chhattisgarh",
+    "hiCity": "कोरबा",
+    "hiState": "छत्तीसगढ़"
+  },
+  {
+    "city": "Jagdalpur",
+    "state": "Chhattisgarh",
+    "hiCity": "जगदलपुर",
+    "hiState": "छत्तीसगढ़"
+  },
+  {
+    "city": "Lucknow",
+    "state": "Uttar Pradesh",
+    "hiCity": "लखनऊ",
+    "hiState": "उत्तर प्रदेश"
+  },
+  {
+    "city": "Kanpur",
+    "state": "Uttar Pradesh",
+    "hiCity": "कानपुर",
+    "hiState": "उत्तर प्रदेश"
+  },
+  {
+    "city": "Agra",
+    "state": "Uttar Pradesh",
+    "hiCity": "आगरा",
+    "hiState": "उत्तर प्रदेश"
+  },
+  {
+    "city": "Varanasi",
+    "state": "Uttar Pradesh",
+    "hiCity": "वाराणसी",
+    "hiState": "उत्तर प्रदेश"
+  },
+  {
+    "city": "Meerut",
+    "state": "Uttar Pradesh",
+    "hiCity": "मेरठ",
+    "hiState": "उत्तर प्रदेश"
+  },
+  {
+    "city": "Dehradun",
+    "state": "Uttarakhand",
+    "hiCity": "देहरादून",
+    "hiState": "उत्तराखंड"
+  },
+  {
+    "city": "Haridwar",
+    "state": "Uttarakhand",
+    "hiCity": "हरिद्वार",
+    "hiState": "उत्तराखंड"
+  },
+  {
+    "city": "Nainital",
+    "state": "Uttarakhand",
+    "hiCity": "नैनीताल",
+    "hiState": "उत्तराखंड"
+  },
+  {
+    "city": "Rudraprayag",
+    "state": "Uttarakhand",
+    "hiCity": "रुद्रप्रयाग",
+    "hiState": "उत्तराखंड"
+  },
+  {
+    "city": "Mussoorie",
+    "state": "Uttarakhand",
+    "hiCity": "मसूरी",
+    "hiState": "उत्तराखंड"
+  },
+  {
+    "city": "Chandigarh",
+    "state": "Chandigarh",
+    "hiCity": "चंडीगढ़",
+    "hiState": "चंडीगढ़"
+  },
+  {
+    "city": "Panchkula",
+    "state": "Haryana",
+    "hiCity": "पंचकुला",
+    "hiState": "हरियाणा"
+  },
+  {
+    "city": "Faridabad",
+    "state": "Haryana",
+    "hiCity": "फरीदाबाद",
+    "hiState": "हरियाणा"
+  },
+  {
+    "city": "Gurugram",
+    "state": "Haryana",
+    "hiCity": "गुरुग्राम",
+    "hiState": "हरियाणा"
+  },
+  {
+    "city": "Ambala",
+    "state": "Haryana",
+    "hiCity": "अंबाला",
+    "hiState": "हरियाणा"
+  },
+  {
+    "city": "Sonipat",
+    "state": "Haryana",
+    "hiCity": "सोनीपत",
+    "hiState": "हरियाणा"
+  },
+  {
+    "city": "Shimla",
+    "state": "Himachal Pradesh",
+    "hiCity": "शिमला",
+    "hiState": "हिमाचल प्रदेश"
+  },
+  {
+    "city": "Manali",
+    "state": "Himachal Pradesh",
+    "hiCity": "मनाली",
+    "hiState": "हिमाचल प्रदेश"
+  },
+  {
+    "city": "Dharamshala",
+    "state": "Himachal Pradesh",
+    "hiCity": "धर्मशाला",
+    "hiState": "हिमाचल प्रदेश"
+  },
+  {
+    "city": "Kullu",
+    "state": "Himachal Pradesh",
+    "hiCity": "कुल्लू",
+    "hiState": "हिमाचल प्रदेश"
+  },
+  {
+    "city": "Solan",
+    "state": "Himachal Pradesh",
+    "hiCity": "सोलन",
+    "hiState": "हिमाचल प्रदेश"
+  },
+  {
+    "city": "Kochi",
+    "state": "Kerala",
+    "hiCity": "कोच्चि",
+    "hiState": "केरल"
+  },
+  {
+    "city": "Thiruvananthapuram",
+    "state": "Kerala",
+    "hiCity": "तिरुवनंतपुरम",
+    "hiState": "केरल"
+  },
+  {
+    "city": "Kozhikode",
+    "state": "Kerala",
+    "hiCity": "कोझीकोड",
+    "hiState": "केरल"
+  },
+  {
+    "city": "Kottayam",
+    "state": "Kerala",
+    "hiCity": "कौत्तायम",
+    "hiState": "केरल"
+  },
+  {
+    "city": "Thrissur",
+    "state": "Kerala",
+    "hiCity": "त्रिशूर",
+    "hiState": "केरल"
+  },
+  {
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "hiCity": "बेंगलुरु",
+    "hiState": "कर्नाटका"
+  },
+  {
+    "city": "Mysuru",
+    "state": "Karnataka",
+    "hiCity": "मैसूर",
+    "hiState": "कर्नाटका"
+  },
+  {
+    "city": "Mangalore",
+    "state": "Karnataka",
+    "hiCity": "मैंगलोर",
+    "hiState": "कर्नाटका"
+  },
+  {
+    "city": "Hubli",
+    "state": "Karnataka",
+    "hiCity": "हब्बलि",
+    "hiState": "कर्नाटका"
+  },
+  {
+    "city": "Belagavi",
+    "state": "Karnataka",
+    "hiCity": "बेलगावी",
+    "hiState": "कर्नाटका"
+  },
+  {
+    "city": "Panaji",
+    "state": "Goa",
+    "hiCity": "पणजी",
+    "hiState": "गोवा"
+  },
+  {
+    "city": "Margao",
+    "state": "Goa",
+    "hiCity": "मार्गाओ",
+    "hiState": "गोवा"
+  },
+  {
+    "city": "Mapusa",
+    "state": "Goa",
+    "hiCity": "मापसा",
+    "hiState": "गोवा"
+  },
+  {
+    "city": "Ponda",
+    "state": "Goa",
+    "hiCity": "पोंडा",
+    "hiState": "गोवा"
+  },
+  {
+    "city": "Vasco da Gama",
+    "state": "Goa",
+    "hiCity": "वास्को दा गामा",
+    "hiState": "गोवा"
+  },
+  {
+    "city": "Salem",
+    "state": "Tamil Nadu",
+    "hiCity": "सलेम",
+    "hiState": "तमिलनाडु"
+  },
+  {
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "hiCity": "हैदराबाद",
+    "hiState": "तेलंगाना"
+  },
+  {
+    "city": "Warangal",
+    "state": "Telangana",
+    "hiCity": "वारंगल",
+    "hiState": "तेलंगाना"
+  },
+  {
+    "city": "Nizamabad",
+    "state": "Telangana",
+    "hiCity": "निजामाबाद",
+    "hiState": "तेलंगाना"
+  },
+  {
+    "city": "Khammam",
+    "state": "Telangana",
+    "hiCity": "खम्मम",
+    "hiState": "तेलंगाना"
+  },
+  {
+    "city": "Karimnagar",
+    "state": "Telangana",
+    "hiCity": "करीमनगर",
+    "hiState": "तेलंगाना"
+  },
+  {
+    "city": "Jorhat",
+    "state": "Assam",
+    "hiCity": "जोरहाट",
+    "hiState": "असम"
+  },
+  {
+    "city": "Nagaon",
+    "state": "Assam",
+    "hiCity": "नगांव",
+    "hiState": "असम"
+  },
+  {
+    "city": "Tinsukia",
+    "state": "Assam",
+    "hiCity": "तिनसुकिया",
+    "hiState": "असम"
+  },
+  {
+    "city": "Tezpur",
+    "state": "Assam",
+    "hiCity": "तेजपुर",
+    "hiState": "असम"
+  },
+  {
+    "city": "Diphu",
+    "state": "Assam",
+    "hiCity": "दीफू",
+    "hiState": "असम"
+  },
+  {
+    "city": "Barpeta",
+    "state": "Assam",
+    "hiCity": "बरपेटा",
+    "hiState": "असम"
+  },
+  {
+    "city": "Bongaigaon",
+    "state": "Assam",
+    "hiCity": "बोंगाईगांव",
+    "hiState": "असम"
+  },
+  {
+    "city": "Naharlagun",
+    "state": "Arunachal Pradesh",
+    "hiCity": "नाहरलागुन",
+    "hiState": "अरुणाचल प्रदेश"
+  },
+  {
+    "city": "Tawang",
+    "state": "Arunachal Pradesh",
+    "hiCity": "तवांग",
+    "hiState": "अरुणाचल प्रदेश"
+  },
+  {
+    "city": "Pasighat",
+    "state": "Arunachal Pradesh",
+    "hiCity": "पासीघाट",
+    "hiState": "अरुणाचल प्रदेश"
+  },
+  {
+    "city": "Ziro",
+    "state": "Arunachal Pradesh",
+    "hiCity": "जीरो",
+    "hiState": "अरुणाचल प्रदेश"
+  },
+  {
+    "city": "Roing",
+    "state": "Arunachal Pradesh",
+    "hiCity": "रोइंग",
+    "hiState": "अरुणाचल प्रदेश"
+  },
+  {
+    "city": "Bomdila",
+    "state": "Arunachal Pradesh",
+    "hiCity": "बोमडिला",
+    "hiState": "अरुणाचल प्रदेश"
+  },
+  {
+    "city": "Along",
+    "state": "Arunachal Pradesh",
+    "hiCity": "आलॉन्ग",
+    "hiState": "अरुणाचल प्रदेश"
+  },
+  {
+    "city": "Khonsa",
+    "state": "Arunachal Pradesh",
+    "hiCity": "खोंसा",
+    "hiState": "अरुणाचल प्रदेश"
+  },
+  {
+    "city": "Tezu",
+    "state": "Arunachal Pradesh",
+    "hiCity": "तेज़ू",
+    "hiState": "अरुणाचल प्रदेश"
+  },
+  {
+    "city": "Kohima",
+    "state": "Nagaland",
+    "hiCity": "कोहिमा",
+    "hiState": "नगालैंड"
+  },
+  {
+    "city": "Dimapur",
+    "state": "Nagaland",
+    "hiCity": "दीमापुर",
+    "hiState": "नगालैंड"
+  },
+  {
+    "city": "Mokokchung",
+    "state": "Nagaland",
+    "hiCity": "मोकोकचुंग",
+    "hiState": "नगालैंड"
+  },
+  {
+    "city": "Tuensang",
+    "state": "Nagaland",
+    "hiCity": "तुएनसांग",
+    "hiState": "नगालैंड"
+  },
+  {
+    "city": "Wokha",
+    "state": "Nagaland",
+    "hiCity": "वोखा",
+    "hiState": "नगालैंड"
+  },
+  {
+    "city": "Zunheboto",
+    "state": "Nagaland",
+    "hiCity": "जुनहेबोटो",
+    "hiState": "नगालैंड"
+  },
+  {
+    "city": "Phek",
+    "state": "Nagaland",
+    "hiCity": "फेक",
+    "hiState": "नगालैंड"
+  },
+  {
+    "city": "Mon",
+    "state": "Nagaland",
+    "hiCity": "मोन",
+    "hiState": "नगालैंड"
+  },
+  {
+    "city": "Kiphire",
+    "state": "Nagaland",
+    "hiCity": "किफ़िरे",
+    "hiState": "नगालैंड"
+  },
+  {
+    "city": "Longleng",
+    "state": "Nagaland",
+    "hiCity": "लॉन्गलेनग",
+    "hiState": "नगालैंड"
+  },
+  {
+    "city": "Aizawl",
+    "state": "Mizoram",
+    "hiCity": "आइज़ोल",
+    "hiState": "मिज़ोरम"
+  },
+  {
+    "city": "Lunglei",
+    "state": "Mizoram",
+    "hiCity": "लुंगलेई",
+    "hiState": "मिज़ोरम"
+  },
+  {
+    "city": "Champhai",
+    "state": "Mizoram",
+    "hiCity": "चम्फाई",
+    "hiState": "मिज़ोरम"
+  },
+  {
+    "city": "Serchhip",
+    "state": "Mizoram",
+    "hiCity": "सर्चहिप",
+    "hiState": "मिज़ोरम"
+  },
+  {
+    "city": "Kolasib",
+    "state": "Mizoram",
+    "hiCity": "कोलासिब",
+    "hiState": "मिज़ोरम"
+  },
+  {
+    "city": "Saitual",
+    "state": "Mizoram",
+    "hiCity": "सैतुआल",
+    "hiState": "मिज़ोरम"
+  },
+  {
+    "city": "Mamit",
+    "state": "Mizoram",
+    "hiCity": "ममित",
+    "hiState": "मिज़ोरम"
+  },
+  {
+    "city": "Khawzawl",
+    "state": "Mizoram",
+    "hiCity": "खवज़ॉल",
+    "hiState": "मिज़ोरम"
+  },
+  {
+    "city": "Lawngtlai",
+    "state": "Mizoram",
+    "hiCity": "लॉंगतलाई",
+    "hiState": "मिज़ोरम"
+  },
+  {
+    "city": "Hnahthial",
+    "state": "Mizoram",
+    "hiCity": "हनाथियाल",
+    "hiState": "मिज़ोरम"
+  },
+  {
+    "city": "Dharmanagar",
+    "state": "Tripura",
+    "hiCity": "धर्मनगर",
+    "hiState": "त्रिपुरा"
+  },
+  {
+    "city": "Kailashahar",
+    "state": "Tripura",
+    "hiCity": "कैलाशहर",
+    "hiState": "त्रिपुरा"
+  },
+  {
+    "city": "Belonia",
+    "state": "Tripura",
+    "hiCity": "बेलोनिया",
+    "hiState": "त्रिपुरा"
+  },
+  {
+    "city": "Ambassa",
+    "state": "Tripura",
+    "hiCity": "अम्बासा",
+    "hiState": "त्रिपुरा"
+  },
+  {
+    "city": "Khowai",
+    "state": "Tripura",
+    "hiCity": "खोवाई",
+    "hiState": "त्रिपुरा"
+  },
+  {
+    "city": "Sonamura",
+    "state": "Tripura",
+    "hiCity": "सोनमुरा",
+    "hiState": "त्रिपुरा"
+  },
+  {
+    "city": "Teliamura",
+    "state": "Tripura",
+    "hiCity": "तेलियामुरा",
+    "hiState": "त्रिपुरा"
+  },
+  {
+    "city": "Bishalgarh",
+    "state": "Tripura",
+    "hiCity": "बिशालगढ़",
+    "hiState": "त्रिपुरा"
+  },
+  {
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "hiCity": "बेंगलुरु",
+    "hiState": "कर्नाटक"
+  },
+  {
+    "city": "Ghaziabad",
+    "state": "Uttar Pradesh",
+    "hiCity": "गाज़ियाबाद",
+    "hiState": "उत्तर प्रदेश"
+  },
+  {
+    "city": "Ludhiana",
+    "state": "Punjab",
+    "hiCity": "लुधियाना",
+    "hiState": "पंजाब"
+  },
+  {
+    "city": "Nashik",
+    "state": "Maharashtra",
+    "hiCity": "नाशिक",
+    "hiState": "महाराष्ट्र"
+  },
+  {
+    "city": "Kalyan-Dombivli",
+    "state": "Maharashtra",
+    "hiCity": "कल्याण-डोंबिवली",
+    "hiState": "महाराष्ट्र"
+  },
+  {
+    "city": "Vasai-Virar",
+    "state": "Maharashtra",
+    "hiCity": "वसई-विरार",
+    "hiState": "महाराष्ट्र"
+  },
+  {
+    "city": "Amritsar",
+    "state": "Punjab",
+    "hiCity": "अमृतसर",
+    "hiState": "पंजाब"
+  },
+  {
+    "city": "Navi Mumbai",
+    "state": "Maharashtra",
+    "hiCity": "नवी मुंबई",
+    "hiState": "महाराष्ट्र"
+  },
+  {
+    "tier": "Tier‑2",
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "hiCity": "जयपुर",
+    "hiState": "राजस्थान"
+  },
+  {
+    "tier": "Tier‑2",
+    "city": "Lucknow",
+    "state": "Uttar Pradesh",
+    "hiCity": "लखनऊ",
+    "hiState": "उत्तर प्रदेश"
+  },
+  {
+    "tier": "Tier‑2",
+    "city": "Surat",
+    "state": "Gujarat",
+    "hiCity": "सूरत",
+    "hiState": "गुजरात"
+  },
+  {
+    "tier": "Tier‑2",
+    "city": "Indore",
+    "state": "Madhya Pradesh",
+    "hiCity": "इंदौर",
+    "hiState": "मध्य प्रदेश"
+  },
+  {
+    "tier": "Tier‑2",
+    "city": "Visakhapatnam",
+    "state": "Andhra Pradesh",
+    "hiCity": "विशाखापत्तनम",
+    "hiState": "आंध्र प्रदेश"
+  },
+  {
+    "tier": "Tier‑3",
+    "city": "Roorkee",
+    "state": "Uttarakhand",
+    "hiCity": "रूड़की",
+    "hiState": "उत्तराखंड"
+  },
+  {
+    "tier": "Tier‑3",
+    "city": "Etawah",
+    "state": "Uttar Pradesh",
+    "hiCity": "एटावा",
+    "hiState": "उत्तर प्रदेश"
+  },
+  {
+    "tier": "Tier‑3",
+    "city": "Jhansi",
+    "state": "Uttar Pradesh",
+    "hiCity": "झांसी",
+    "hiState": "उत्तर प्रदेश"
+  },
+  {
+    "tier": "Tier‑3",
+    "city": "Salem",
+    "state": "Tamil Nadu",
+    "hiCity": "सेलम",
+    "hiState": "तमिलनाडु"
+  },
+  {
+    "tier": "Tier‑3",
+    "city": "Bhatinda",
+    "state": "Punjab",
+    "hiCity": "भटिंडा",
+    "hiState": "पंजाब"
+  }
+  ,
+  {
+    "city": "Noida",
+    "state": "Uttar Pradesh",
+    "hiCity": "नोएडा",
+    "hiState": "उत्तर प्रदेश"
+  },
+  {
+    "city": "Greater Noida",
+    "state": "Uttar Pradesh",
+    "hiCity": "ग्रेटर नोएडा",
+    "hiState": "उत्तर प्रदेश"
+  },
+  {
+    "city": "Gurgaon",
+    "state": "Haryana",
+    "hiCity": "गुड़गांव",
+    "hiState": "हरियाणा"
+  }
+
+
+]

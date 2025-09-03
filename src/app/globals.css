@@ -1,0 +1,320 @@
+@import "tailwindcss";
+
+
+/* src/app/globals.css */
+
+html.text-sm {
+  font-size: 14px;
+}
+
+html.text-base {
+  font-size: 16px;
+}
+
+html.text-lg {
+  font-size: 18px;
+}
+
+html.text-xl {
+  font-size: 20px;
+}
+
+
+.clip-tab {
+  clip-path: polygon(0 100%, 0 0, 60% 0, 100% 100%);
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+
+
+
+
+
+.markdown-formatting{
+  font-family: Inter;
+  font-weight:normal;
+  max-width: 95vw;
+} 
+
+.markdown-formatting p{
+  margin-bottom: 1rem;
+  text-align: justify;
+}
+
+.markdown-formatting ul{
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  list-style-type:disc;
+}
+
+.markdown-formatting ol ol {
+  list-style-type: upper-alpha; /* Use alphabetic numbering for nested lists */
+}
+
+.markdown-formatting li{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+}
+
+.markdown-formatting ul ul{
+  list-style-type: circle;
+}
+
+.markdown-formatting ol{ 
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  list-style-type:decimal;
+}
+
+/* To prevent styling from affecting nested list items or from being inherited incorrectly, add more specificity */
+.markdown-formatting ol > li > ul {
+  list-style-type: square; /* Ensure that nested ul inside ordered list uses circles */
+}
+
+/* Ensure nested ol inside a ul (like ul > ol) use upper-alpha */
+.markdown-formatting ul > li > ol {
+    list-style-type: none;
+    margin: 0px;
+}
+
+.markdown-formatting a{
+  background-color: blue;
+}
+
+.markdown-formatting h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  margin: 20px 0 10px;
+}
+
+.markdown-formatting h1{
+  font-size: 2em;
+}
+
+.markdown-formatting h2{
+  font-size: 1.75em;
+}
+
+.markdown-formatting h3{
+  font-size: 1.5em;
+}
+
+.markdown-formatting h4{
+  font-size: 1.25em;
+}
+
+.markdown-formatting h5{
+  font-size: 1em;
+}
+
+.markdown-formatting h6{
+  font-size: 0.75em;
+}
+
+.markdown-formatting blockquote{
+  background: rgb(249,249,249);
+  background: linear-gradient(90deg, rgba(249,249,249,1) 0%, rgba(249,249,249,1) 90%, rgba(244,244,244,1) 100%);
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  overflow-x: auto;
+  border: 1px solid #ddd;
+  font-family: itim;
+  font-style: italic;
+  padding: 1rem;
+  padding-right: 2.5rem;
+  box-shadow: 0px 0px 1px 0px rgb(193, 193, 193);
+}
+
+.markdown-formatting blockquote > p{
+  margin:0px;
+  padding: 0px;
+}
+
+.markdown-formatting pre{
+  background: rgb(249,249,249);
+  background: linear-gradient(90deg, rgba(249,249,249,1) 0%, rgba(245,245,245,1) 75%, rgba(244,244,244,1) 100%);
+  padding:1rem;
+  padding-bottom: 2rem;
+  border: 1px solid #ddd;
+  overflow-x: auto;
+  border-radius: 10px;
+  box-shadow: 0px 0px 1px 0px rgb(225, 225, 225);
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  font-size: 14px;
+}
+
+.markdown-formatting pre .language-python{
+  --language-code-text:"Python";
+}
+
+.markdown-formatting pre .language-javascript{
+  --language-code-text:"Javascript";
+}
+
+.markdown-formatting pre .language-java{
+  --language-code-text:"Java";
+}
+
+.markdown-formatting pre .language-c{
+  --language-code-text:"C";
+}
+
+.markdown-formatting pre .language-csharp {
+  --language-code-text:"C#";
+}
+
+.markdown-formatting pre .language-go{
+  --language-code-text:"Go";
+}
+
+.markdown-formatting pre .language-swift{
+  --language-code-text:"Swift";
+}
+
+.markdown-formatting pre .language-ruby{
+  --language-code-text:"Ruby";
+}
+
+.markdown-formatting pre .language-php{
+  --language-code-text:"php";
+}
+
+.markdown-formatting pre .language-perl{
+  --language-code-text:"Perl";
+}
+
+
+.markdown-formatting pre .language-kotlin{
+  --language-code-text:"Kotlin";
+}
+
+.markdown-formatting pre .language-html{
+  --language-code-text:"HTML";
+}
+
+.markdown-formatting pre .language-css{
+  --language-code-text:"CSS";
+}
+
+.markdown-formatting pre .language-json{
+  --language-code-text:"JSON";
+}
+
+.markdown-formatting pre .language-xml{
+  --language-code-text:"XML";
+}
+
+.markdown-formatting pre .language-r{
+  --language-code-text:"R";
+}
+
+.markdown-formatting pre .language-tsx{
+  --language-code-text:"tsx";
+}
+
+.markdown-formatting pre .language-jsx{
+  --language-code-text:"jsx";
+}
+
+.markdown-formatting pre .language-bash{
+  --language-code-text:"bash";
+}
+
+.markdown-formatting pre code::before{
+  content: var(--language-code-text);
+  font-size: 12px; 
+  color: #717171;
+  display: block;
+  margin-bottom: 1rem; 
+  font-family: Inter;
+}
+
+.markdown-formatting p > code{
+  background-color: #ececec;
+  padding-left: 4px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-right: 4px;
+  border-radius: 5px;
+}
+
+.markdown-formatting hr{
+  margin-bottom: 1rem;
+}
+
+.markdown-formatting a{
+  color: #0055bc;
+  background-color: inherit;
+  transition: all 0.2s ease;
+}
+
+.markdown-formatting a:hover{
+  color: #0270f7;
+}
+
+.markdown-formatting del {
+  text-decoration: line-through;
+  color: #480000;
+}
+
+.markdown-formatting table{
+  width: 100%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-family: Inter;
+  overflow: auto;
+  box-shadow: 0px 0px 1px 0px #c7c7c7;
+  border: 1px solid #ddd;
+}
+
+.markdown-formatting thead{
+  background-color: #dedede;
+
+}
+
+.markdown-formatting th {
+  color: black;
+  letter-spacing: 0.05em;
+  padding-right: 1rem;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+  padding-left: 1rem;
+  font-weight:500;
+  border: 1px solid #c7c7c7;
+}
+
+.markdown-formatting td {
+  border: 1px solid #c7c7c7;
+  font-size: 14px;
+  padding: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-align: left;
+}
+
+.markdown-formatting tr{
+  background-color:none;
+}
+
+.markdown-formatting tr:nth-child(even) {
+  background-color: #d2d2d210;
+}
+
+.markdown-formatting tr:hover {
+  background-color: #efefef;
+  transition: all 0.2s ease;
+}
+
+.markdown-formatting th, td {
+  text-align: left;
+  vertical-align: middle;
+}
+

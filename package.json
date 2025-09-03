@@ -1,0 +1,60 @@
+{
+  "name": "nhdc",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "browserslist": [
+    "> 0.2%",
+    "not dead",
+    "not op_mini all",
+    "safari >= 13"
+  ],
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@fortawesome/free-solid-svg-icons": "^7.0.0",
+    "@fortawesome/react-fontawesome": "^0.2.3",
+    "@mui/icons-material": "^7.2.0",
+    "@mui/lab": "^7.0.0-beta.14",
+    "@mui/material": "^7.2.0",
+    "@mui/x-date-pickers": "^8.9.2",
+    "@mui/x-date-pickers-pro": "^8.9.2",
+    "@react-pdf/renderer": "^4.3.0",
+    "axios": "^1.11.0",
+    "core-js": "^3.45.1",
+    "date-fns": "^4.1.0",
+    "dayjs": "^1.11.13",
+    "dompurify": "^3.2.6",
+    "file-saver": "^2.0.5",
+    "framer-motion": "^12.23.6",
+    "js-cookie": "^3.0.5",
+    "jsdom": "^26.1.0",
+    "jspdf": "^3.0.1",
+    "jspdf-autotable": "^5.0.2",
+    "lodash.debounce": "^4.0.8",
+    "lucide-react": "^0.525.0",
+    "next": "15.3.3",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-icons": "^5.5.0",
+    "react-leaflet": "^5.0.0",
+    "react-markdown": "^10.1.0",
+    "react-slick": "^0.30.3",
+    "react-toastify": "^11.0.5",
+    "remark-gfm": "^4.0.1",
+    "sharp": "^0.34.3",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4.1.11",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.3",
+    "tailwindcss": "^4"
+  }
+}
