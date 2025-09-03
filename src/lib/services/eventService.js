@@ -11,6 +11,7 @@ export const eventService = {
     return api.get(`Event/${id}`);
   },
 
+  
   async create(data) {
     return api.post('Event', data);
   },
