@@ -139,7 +139,6 @@ export default function WeaversMapSection({ StateMap }) {
   };
 
   return (
-    // SEO & Accessibility: Changed `div` to `<section>` for semantic landmarking and added `aria-labelledby`.
     <section
       ref={sectionRef}
       className={`${roboto.className} grid grid-cols-1 min-h-[40rem] md:grid-cols-2 gap-4 sm:gap-6 bg-[#F7DADA] my-6 sm:my-8 md:my-12 lg:my-16 xl:my-20 overflow-hidden`}
@@ -158,30 +157,27 @@ export default function WeaversMapSection({ StateMap }) {
             width={80}
             src="/assets/needle.png"
             className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 lg:w-16 lg:h-16 xl:w-20 xl:h-20 object-contain mt-1"
-            // SEO & Accessibility: More descriptive alt text.
             alt={lang === 'hi' ? 'हथकरघा बुनाई की कला का प्रतीक एक सुई' : 'A needle, symbolizing the craft of handloom weaving'}
           />
-          <div className="ml-2 sm:ml-3 md:ml-4">
-            {/* SEO & Accessibility: Changed `h3` to `p` for correct semantic hierarchy. */}
-            <p className="text-[#62402A] text-lg mb-1">
+          <div className="ml-2 sm:ml-3 md:ml-4 overflow-hidden">
+            <p className="text-[#62402A] text-lg mb-1 truncate">
               {content.legacy[lang]}
             </p>
-            {/* SEO & Accessibility: Added `id` to be referenced by the section's `aria-labelledby`. */}
-            <h2 id="weavers-map-heading" className={`md:text-4xl text-2xl ${playfair.className} text-[#62402A] font-bold`}>
+            <h2 id="weavers-map-heading" className={`md:text-4xl text-2xl ${playfair.className} text-[#62402A] font-bold break-words`}>
               {content.title[lang]}
             </h2>
           </div>
         </motion.header>
 
         <motion.div variants={textVariants} initial="hidden" animate={isInView ? 'visible' : 'hidden'} custom={0}>
-          <p className="text-[#333] text-xs sm:text-sm md:text-base leading-relaxed sm:leading-relaxed md:leading-relaxed overflow-hidden">
+          <p className="text-[#333] text-xs sm:text-sm md:text-base leading-relaxed sm:leading-relaxed md:leading-relaxed overflow-hidden text-ellipsis">
             {content.description[lang]}
           </p>
         </motion.div>
 
-        <div>
+        <div className="overflow-hidden">
           <motion.h3
-            className={`${playfair.className} text-base mb-2 sm:text-lg md:text-xl lg:text-2xl font-bold text-[#62402A]`}
+            className={`${playfair.className} text-base mb-2 sm:text-lg md:text-xl lg:text-2xl font-bold text-[#62402A] truncate`}
             variants={textVariants}
             initial="hidden"
             animate={isInView ? 'visible' : 'hidden'}
@@ -200,16 +196,17 @@ export default function WeaversMapSection({ StateMap }) {
           </motion.div>
         </div>
 
-        <div className="flex flex-wrap gap-1.5 sm:gap-2 md:gap-2.5 lg:gap-3 mt-2 sm:mt-3 overflow-y-auto min-h-32 pb-2">
+        <div className="flex flex-wrap gap-1.5 sm:gap-2 md:gap-2.5 lg:gap-3 mt-2 sm:mt-3 overflow-y-auto max-h-[180px] py-1 px-1">
           {handloomStates?.map((state, index) => (
             <motion.button
               key={state.id || `${state.name}-${index}`}
               onClick={(e) => handleClick(e, state)}
-              className={`px-3 py-1 rounded-full border text-sm flex-shrink-0 ${selectedState?.state === state.state ? " text-[#62402A]  bg-[#FFFFFF] border-[#5B7AE6#5B7AE6] font-semibold" : "text-[#333] border-[#fcaeae] bg-transparent"}`}
+              className={`px-3 py-1 rounded-full border text-sm truncate max-w-[120px] ${selectedState?.state === state.state ? " text-[#62402A]  bg-[#FFFFFF] border-[#5B7AE6#5B7AE6] font-semibold" : "text-[#333] border-[#fcaeae] bg-transparent"}`}
               variants={buttonVariants}
               initial="hidden"
               animate="visible"
               custom={index}
+              title={lang === "en" ? state.state : state.state_hindi}
             >
               {lang === "en" ? state.state : state.state_hindi}
             </motion.button>
@@ -221,47 +218,50 @@ export default function WeaversMapSection({ StateMap }) {
             onClose={handleClose}
             anchorOrigin={{ vertical: "top", horizontal: "center" }}
             transformOrigin={{ vertical: "bottom", horizontal: "center" }}
-            className="overflow-visible"
+            sx={{
+              '& .MuiPopover-paper': {
+                overflow: 'hidden',
+                maxWidth: '95vw',
+              }
+            }}
           >
             {selectedState && (
-              <div className="p-4 w-72 max-h-80 overflow-y-auto">
+              <div className="p-4 w-72 max-w-[90vw]">
                 <div className="flex justify-between items-center mb-3">
-                  <Typography variant="h6" component="h4">{selectedState.state}</Typography>
-                  {/* Accessibility: Added explicit aria-label for the close button. */}
+                  <Typography variant="h6" component="h4" className="truncate">{selectedState.state}</Typography>
                   <IconButton size="small" onClick={handleClose} aria-label={lang === 'hi' ? 'बंद करें' : 'Close'}>
                     <CloseIcon fontSize="small" />
                   </IconButton>
                 </div>
 
-                <table className="w-full border border-gray-300 rounded-md overflow-hidden text-sm">
-                  {/* Accessibility: Added `<caption>` for table context. */}
+                <table className="w-full border border-gray-300 rounded-md overflow-hidden text-sm" style={{ tableLayout: 'fixed' }}>
                   <caption className="sr-only">{`Handloom data for ${selectedState.state}`}</caption>
                   <thead className="bg-gray-100">
                     <tr>
-                      <th scope="col" className="px-3 py-2 text-left font-semibold border-b border-gray-300">
+                      <th scope="col" className="px-3 py-2 text-left font-semibold border-b border-gray-300 truncate">
                         State Wise
                       </th>
-                      <th scope="col" className="px-3 py-2 text-right font-semibold border-b border-gray-300">
+                      <th scope="col" className="px-3 py-2 text-right font-semibold border-b border-gray-300 truncate">
                         Count
                       </th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr className="hover:bg-gray-50">
-                      <td className="px-3 py-2 border-b border-gray-200">Total Workers</td>
-                      <td className="px-3 py-2 border-b border-gray-200 text-right font-medium">{selectedState.data.total_workers.toLocaleString()}</td>
+                      <td className="px-3 py-2 border-b border-gray-200 truncate">Total Workers</td>
+                      <td className="px-3 py-2 border-b border-gray-200 text-right font-medium truncate">{selectedState.data.total_workers.toLocaleString()}</td>
                     </tr>
                     <tr className="hover:bg-gray-50">
-                      <td className="px-3 py-2 border-b border-gray-200">Total Weavers</td>
-                      <td className="px-3 py-2 border-b border-gray-200 text-right font-medium">{selectedState.data.total_weavers.toLocaleString()}</td>
+                      <td className="px-3 py-2 border-b border-gray-200 truncate">Total Weavers</td>
+                      <td className="px-3 py-2 border-b border-gray-200 text-right font-medium truncate">{selectedState.data.total_weavers.toLocaleString()}</td>
                     </tr>
                     <tr className="hover:bg-gray-50">
-                      <td className="px-3 py-2 border-b border-gray-200">Weaver Households</td>
-                      <td className="px-3 py-2 border-b border-gray-200 text-right font-medium">{selectedState.data.total_weaver_households.toLocaleString()}</td>
+                      <td className="px-3 py-2 border-b border-gray-200 truncate">Weaver Households</td>
+                      <td className="px-3 py-2 border-b border-gray-200 text-right font-medium truncate">{selectedState.data.total_weaver_households.toLocaleString()}</td>
                     </tr>
                     <tr className="hover:bg-gray-50">
-                      <td className="px-3 py-2">Households with Looms</td>
-                      <td className="px-3 py-2 text-right font-medium">{selectedState.data.total_households_with_looms.toLocaleString()}</td>
+                      <td className="px-3 py-2 truncate">Households with Looms</td>
+                      <td className="px-3 py-2 text-right font-medium truncate">{selectedState.data.total_households_with_looms.toLocaleString()}</td>
                     </tr>
                   </tbody>
                 </table>

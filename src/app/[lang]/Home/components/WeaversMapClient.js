@@ -260,7 +260,7 @@ export default function WeaversMapClient({
       <div
         id="leaflet-map"
         className={`relative z-0 w-full h-full rounded-lg overflow-hidden shadow-sm ${popupOpen ? 'overflow-hidden' : 'overflow-auto'}`}
-        style={{ height: isMobile ? '70vh' : '100%' }}
+        style={{ height: isMobile ? '90vh' : '100%', minHeight: '300px' }}
       >
         <MapContainer
           center={defaultCenter.current}
@@ -305,114 +305,124 @@ export default function WeaversMapClient({
                 className="custom-popup min-w-[280px] max-w-[90vw] md:max-w-[420px]"
                 closeButton={false} // We'll use our custom close button
               >
-                <div className="popup-content" style={{ maxHeight: isMobile ? '60vh' : '70vh', overflowY: 'auto' }}>
-                  <CloseButton onClose={() => {
-                    const map = mapRef.current;
-                    if (map) {
-                      map.closePopup();
-                    }
-                  }} />
-                  
-                  <div className="space-y-2">
-                    {/* Header */}
-                    <div className="bg-[#f7d7d8] px-2 border-b rounded-lg border-blue-100">
-                      <h3 className="text-base font-bold pt-2 text-[#62402A] leading-tight">
-                        {lang === "en" ? marker.region || marker.name : marker.name_hi}
-                      </h3>
+                <div className="mobile-popup-wrapper" style={{ 
+                  maxHeight: 'calc(100vh - 100px)',
+                  overflowY: 'auto',
+                  WebkitOverflowScrolling: 'touch'
+                }}>
+                  <div className="popup-content" style={{ 
+                    maxHeight: isMobile ? '60vh' : '70vh', 
+                    overflowY: 'auto',
+                    paddingRight: '4px'
+                  }}>
+                    <CloseButton onClose={() => {
+                      const map = mapRef.current;
+                      if (map) {
+                        map.closePopup();
+                      }
+                    }} />
+                    
+                    <div className="space-y-2">
+                      {/* Header */}
+                      <div className="bg-[#f7d7d8] px-2 border-b rounded-lg border-blue-100 overflow-hidden">
+                        <h3 className="text-base font-bold pt-2 text-[#62402A] leading-tight break-words">
+                          {lang === "en" ? marker.region || marker.name : marker.name_hi}
+                        </h3>
 
-                      {marker.details?.designation && (
-                        <div className="flex flex-col space-y-0.5 mb-2">
-                          <span className="text-sm font-bold text-[#62402A]">
-                            {lang === "en"
-                              ? marker.details?.inCharge
-                              : marker.details?.inCharge_hi || marker.details?.inCharge}
-                          </span>
+                        {marker.details?.designation && (
+                          <div className="flex flex-col space-y-0.5 mb-2 overflow-hidden">
+                            <span className="text-sm font-bold text-[#62402A] truncate">
+                              {lang === "en"
+                                ? marker.details?.inCharge
+                                : marker.details?.inCharge_hi || marker.details?.inCharge}
+                            </span>
 
-                          <span className="text-xs text-[#62402A] pl-1">
-                            {lang === "en" ? "Regional Manager" : "क्षेत्रीय प्रबंधक"}
-                          </span>
-                        </div>
-                      )}
-                    </div>
-
-                    {/* Address */}
-                    <div className="mb-3 flex">
-                      <div className="text-xs font-medium text-gray-600 mb-1">
-                        📍
-                      </div>
-                      <div className="text-xs text-gray-800 leading-relaxed pl-4">
-                        {lang === "en" ?
-                          (marker.region || "Regional Office, " + ' ' + marker.details?.address?.en) :
-                          marker.details?.address?.hi
-                        }
-                      </div>
-                    </div>
-
-                    {/* Contact Grid */}
-                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs">
-                      {/* Phone */}
-                      {marker.details?.mobileNo && (
-                        <div className="bg-gray-50 p-2 gap-1 flex rounded">
-                          <div className="text-gray-500 mb-1">📱</div>
-                          <a href={`tel:${marker.details.mobileNo}`} className="text-blue-600 font-medium hover:underline">
-                            {marker.details.mobileNo}
-                          </a>
-                        </div>
-                      )}
-
-                      {marker.details?.email && (
-                        <div className="bg-gray-50 p-2 flex gap-1 rounded">
-                          <div className="text-gray-500 mb-1">📧</div>
-                          <a href={`mailto:${marker.details.email}`} className="text-blue-600 font-medium hover:underline">
-                            {marker.details.email}
-                          </a>
-                        </div>
-                      )}
-                    </div>
-                  </div>
-                  
-                  <div className="space-y-3 mt-3">
-                    {/* Main Supply Section - Blue */}
-                    <div className="bg-blue-50 rounded-lg py-2 px-2 space-y-1">
-                      <div className="text-xs text-[#62402A] pt-1 border-blue-100 text-center font-bold">
-                        {` Total Supply under RMSS - FY: 2024-2025`}
-                      </div>
-
-                      <div className="flex items-center justify-evenly">
-                        <span className="text-gray-600 text-sm">Quantity</span>
-                        <span className="text-gray-900 font-medium">
-                          {marker.totalSupplyUnderRMSS ? marker.totalSupplyUnderRMSS : "--"} Lakh Kg
-                        </span>
-                      </div>
-                    </div>
-
-                    {/* Quarter 1 Section - Light Yellow */}
-                    <div className="bg-yellow-50 rounded-lg p-3 space-y-2">
-                      <div className="text-xs text-[#62402A] font-bold text-center">
-                        {`Total Supply under RMSS - Quarter 1 (April to June 2025)`}
-                      </div>
-                      <div className="flex justify-evenly items-center">
-                        <span className="text-gray-600 text-sm">Quantity</span>
-                        <span className="text-gray-900 font-medium">
-                          {marker.quater1Supply ? marker.quater1Supply : "--"} Lakh Kg
-                        </span>
-                      </div>
-                    </div>
-
-                    {/* GI Awareness Camp */}
-                    {marker.giCamps && marker.giCamps.length > 0 && (
-                      <div className="bg-green-50 rounded-lg py-3 px-2 space-y-2">
-                        <div className="text-xs text-[#62402A] font-bold text-center">
-                          {`Activities completed`}
-                        </div>
-                        <span className="text-[#62402A] text-xs font-bold">GI Awareness Camp:</span>
-                        {marker.giCamps.map((camp, index) => (
-                          <div key={index} className="text-xs">
-                            • {camp.date} – {camp.location} – {camp.weaversParticipation} – {camp.giProduct}
+                            <span className="text-xs text-[#62402A] pl-1 truncate">
+                              {lang === "en" ? "Regional Manager" : "क्षेत्रीय प्रबंधक"}
+                            </span>
                           </div>
-                        ))}
+                        )}
                       </div>
-                    )}
+
+                      {/* Address */}
+                      <div className="mb-3 flex overflow-hidden">
+                        <div className="text-xs font-medium text-gray-600 mb-1 flex-shrink-0">
+                          📍
+                        </div>
+                        <div className="text-xs text-gray-800 leading-relaxed pl-4 break-words">
+                          {lang === "en" ?
+                            (marker.region || "Regional Office, " + ' ' + marker.details?.address?.en) :
+                            marker.details?.address?.hi
+                          }
+                        </div>
+                      </div>
+
+                      {/* Contact Grid */}
+                      <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs overflow-hidden">
+                        {/* Phone */}
+                        {marker.details?.mobileNo && (
+                          <div className="bg-gray-50 p-2 gap-1 flex rounded overflow-hidden">
+                            <div className="text-gray-500 mb-1 flex-shrink-0">📱</div>
+                            <a href={`tel:${marker.details.mobileNo}`} className="text-blue-600 font-medium hover:underline truncate">
+                              {marker.details.mobileNo}
+                            </a>
+                          </div>
+                        )}
+
+                        {marker.details?.email && (
+                          <div className="bg-gray-50 p-2 flex gap-1 rounded overflow-hidden">
+                            <div className="text-gray-500 mb-1 flex-shrink-0">📧</div>
+                            <a href={`mailto:${marker.details.email}`} className="text-blue-600 font-medium hover:underline truncate">
+                              {marker.details.email}
+                            </a>
+                          </div>
+                        )}
+                      </div>
+                    </div>
+                    
+                    <div className="space-y-3 mt-3 overflow-hidden">
+                      {/* Main Supply Section - Blue */}
+                      <div className="bg-blue-50 rounded-lg py-2 px-2 space-y-1 overflow-hidden">
+                        <div className="text-xs text-[#62402A] pt-1 border-blue-100 text-center font-bold truncate">
+                          {` Total Supply under RMSS - FY: 2024-2025`}
+                        </div>
+
+                        <div className="flex items-center justify-evenly overflow-hidden">
+                          <span className="text-gray-600 text-sm truncate">Quantity</span>
+                          <span className="text-gray-900 font-medium truncate">
+                            {marker.totalSupplyUnderRMSS ? marker.totalSupplyUnderRMSS : "--"} Lakh Kg
+                          </span>
+                        </div>
+                      </div>
+
+                      {/* Quarter 1 Section - Light Yellow */}
+                      <div className="bg-yellow-50 rounded-lg p-3 space-y-2 overflow-hidden">
+                        <div className="text-xs text-[#62402A] font-bold text-center truncate">
+                          {`Total Supply under RMSS - Quarter 1 (April to June 2025)`}
+                        </div>
+                        <div className="flex justify-evenly items-center overflow-hidden">
+                          <span className="text-gray-600 text-sm truncate">Quantity</span>
+                          <span className="text-gray-900 font-medium truncate">
+                            {marker.quater1Supply ? marker.quater1Supply : "--"} Lakh Kg
+                          </span>
+                        </div>
+                      </div>
+
+                      {/* GI Awareness Camp */}
+                      {marker.giCamps && marker.giCamps.length > 0 && (
+                        <div className="bg-green-50  rounded-lg py-3 mb-10 px-2 space-y-2 overflow-hidden">
+                          <div className="text-xs text-[#62402A] font-bold text-center truncate">
+                            {`Activities completed`}
+                          </div>
+                          <span className="text-[#62402A] text-xs font-bold truncate">GI Awareness Camp:</span>
+                          {marker.giCamps.map((camp, index) => (
+                            <div key={index} className="text-xs break-words">
+                              • {camp.date} – {camp.location} – {camp.weaversParticipation} – {camp.giProduct}
+                            </div>
+                          ))}
+                        </div>
+                      )}
+                    </div>
                   </div>
                 </div>
               </Popup>
@@ -452,7 +462,7 @@ export default function WeaversMapClient({
           
           /* Make popup more touch-friendly on mobile */
           .leaflet-popup-content-wrapper {
-            max-height: 75vh;
+            max-height: 60vh;
             overflow-y: auto;
           }
         }
