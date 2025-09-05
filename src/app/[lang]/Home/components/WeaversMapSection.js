@@ -196,7 +196,7 @@ export default function WeaversMapSection({ StateMap }) {
           </motion.div>
         </div>
 
-        <div className="flex flex-wrap gap-1.5 sm:gap-2 md:gap-2.5 lg:gap-3 mt-2 sm:mt-3 overflow-y-auto max-h-[180px] py-1 px-1">
+        <div className="flex flex-wrap gap-1.5 sm:gap-2 md:gap-2.5 lg:gap-3 mt-2 sm:mt-3 overflow-y-auto min-h-36 py-1 px-1">
           {handloomStates?.map((state, index) => (
             <motion.button
               key={state.id || `${state.name}-${index}`}
