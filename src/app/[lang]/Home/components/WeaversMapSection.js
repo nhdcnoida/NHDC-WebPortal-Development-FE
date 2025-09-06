@@ -274,7 +274,7 @@ export default function WeaversMapSection({ StateMap }) {
 
       {/* Right Side (Dynamic Map) */}
       <motion.div
-        className="w-full h-[450px] xs:h-[300px] sm:h-[350px] md:h-full relative"
+        className="w-full h-[500px] xs:h-[300px] sm:h-[350px] md:h-full relative"
         variants={mapVariants}
         initial="hidden"
         animate={isInView ? 'visible' : 'hidden'}
